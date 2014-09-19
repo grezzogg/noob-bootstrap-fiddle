@@ -3,24 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>noob-bootstrap-fiddle</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
-  <header class="page-header"></header>
-  <div class="nav">
-    <ul class="pull-left">
-      <li>left</li>
-      <li>left</li>
-      <li>left</li>
-      <li>left</li>
-    </ul>
-    <ul class="pull-right">
-      <li>right</li>
-      <li>right</li>
-      <li>right</li>
-      <li>right</li>
-    </ul>
-  </div>
+  <nav class="navbar navbar-default" role="navigation">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+         data-target="#example-navbar-collapse">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">TutorialsPoint</a>
+   </div>
+   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+      <ul class="nav navbar-nav">
+         <li class="active"><a href="#">iOS</a></li>
+         <li><a href="#">SVN</a></li>
+      </ul>
+   </div>
+</nav>
 </body>
 </html>
